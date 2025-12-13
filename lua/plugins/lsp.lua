@@ -38,5 +38,6 @@ return {
         vim.lsp.enable("clangd")
 
         -- autocomplete
+        vim.diagnostic.config({ virtual_text = true })
     end
 }
