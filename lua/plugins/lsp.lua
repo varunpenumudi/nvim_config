@@ -1,5 +1,5 @@
 return {
-    'https://github.com/neovim/nvim-lspconfig',
+    "neovim/nvim-lspconfig",
     dependencies = {"saghen/blink.nvim"},
     config = function()
         -- lua config
