@@ -11,6 +11,8 @@ return {
                 "lua_ls",
                 "clangd",
                 "neocmake",
+                "basedpyright",
+                "rust_analyzer",
             }
         })
     end
