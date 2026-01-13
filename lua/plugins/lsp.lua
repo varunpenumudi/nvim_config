@@ -13,6 +13,7 @@ return {
         -- enabling lsp's 
         vim.lsp.enable("lua_ls")
         vim.lsp.enable("clangd")
+        vim.lsp.enable("neocmake")
 
         -- diagnostic 
         vim.diagnostic.config({ virtual_text = true })
